@@ -6,7 +6,7 @@
   <link href="http://williamfun.github.io/atom.xml" rel="self"/>
   
   <link href="http://williamfun.github.io/"/>
-  <updated>2021-03-10T06:27:18.592Z</updated>
+  <updated>2021-03-25T11:42:56.058Z</updated>
   <id>http://williamfun.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>My First Blog</title>
+    <link href="http://williamfun.github.io/2021/03/25/My-First-Blog/"/>
+    <id>http://williamfun.github.io/2021/03/25/My-First-Blog/</id>
+    <published>2021-03-25T11:39:44.000Z</published>
+    <updated>2021-03-25T11:42:56.058Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello,this is my first blog!</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hello,this is my first blog!&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="Demo" scheme="http://williamfun.github.io/tags/Demo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
