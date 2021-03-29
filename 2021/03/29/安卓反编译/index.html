@@ -16,11 +16,13 @@
 </li>
 </ul>
 <p>若出现以下内容：</p>
-<p><img src="./%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329132637279.png" alt="image-20210329132637279"></p>
+<img src="/2021/03/29/%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329132637279.png" class="" title="image-20210329132637279">
+
 <p>则说明安装成功，若没有出现，则需要把「apktool.jar」、「apktool.bat」的路径添加到系统的环境变量中。</p>
 <h1 id="二、得到资源文件"><a href="#二、得到资源文件" class="headerlink" title="二、得到资源文件"></a>二、得到资源文件</h1><p>有两种方法得到APK文件的资源文件，1.直接把 apk 的扩展名改成「.zip」可以对其进行解压并得到一些资源文件；2.通过Apktool将apk文件进行反编译。</p>
 <h2 id="2-1-直接解压"><a href="#2-1-直接解压" class="headerlink" title="2-1 直接解压"></a>2-1 直接解压</h2><p>直接解压得到的文件：</p>
-<p><img src="./%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329115309663.png" alt="image-20210329115309663"></p>
+<img src="/2021/03/29/%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329115309663.png" class="" title="image-20210329115309663">
+
 <p>其中，</p>
 <ul>
 <li><p><strong>META-INF</strong>：保存 App 的签名信息；</p>
@@ -42,7 +44,8 @@
 <li>-f 表示如果目标文件夹存在，则删除后重新反编译</li>
 </ul>
 <p>通过Apktool进行反编译的文件：</p>
-<p><img src="./%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329150348427.png" alt="image-20210329150348427"></p>
+<img src="/2021/03/29/%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329150348427.png" class="" title="image-20210329150348427">
+
 <p>其中，</p>
 <p><strong>original</strong>：存放<strong>META-INF</strong>和<strong>AndroidManifest.xml</strong>，未经编译的文件等。</p>
 <p><strong>res</strong>：存放资源文件，例如图片、颜色等。</p>
@@ -69,7 +72,8 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">d2j-dex2jar.bat classes.dex</span><br></pre></td></tr></table></figure>
 
 <p>运行成功则会显示如下内容：</p>
-<p><img src="./%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329151358067.png" alt="image-20210329151358067"></p>
+<img src="/2021/03/29/%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329151358067.png" class="" title="image-20210329151358067">
+
 <p>并在当前目录生成<strong>classes-dex2jar.jar</strong>文件。</p>
 </li>
 <li><p>如果在Mac OS 和 Linux系统中提示：</p>
@@ -82,7 +86,8 @@
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sh d2j-dex2jar.sh classes.dex</span><br></pre></td></tr></table></figure></li>
 </ul>
 <h2 id="3-2-jd-gui查看JAVA源码"><a href="#3-2-jd-gui查看JAVA源码" class="headerlink" title="3-2 jd-gui查看JAVA源码"></a>3-2 jd-gui查看JAVA源码</h2><p>使用下载好的jd-gui程序并在其中打开<strong>classes-dex2jar.jar</strong>文件即可看到反编译出的Java代码，如图所示。</p>
-<p><img src="./%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329152105518.png" alt="image-20210329152105518"></p>
+<img src="/2021/03/29/%E5%AE%89%E5%8D%93%E5%8F%8D%E7%BC%96%E8%AF%91/image-20210329152105518.png" class="" title="image-20210329152105518">
+
 <p>这里的代码没有经过混淆，所以命名容易识别，如果是从应用市场下载下来的 apk 文件，反编译出来的代码大部分是混淆过后的代码。</p>
 </div><!-- comment system--><div class="container"><hr></div></article><footer id="footer"><div class="container"><div class="bar"><div class="social"><a href="mailto:waillimfun@qq.com" target="_blank"><i class="fa fa-envelope-o"></i></a><a href="https://github.com/https://github.com/WilliamFun" target="_blank"><i class="fa fa-github"></i></a><a href="/atom.xml" target="_blank"><i class="fa fa-rss"></i></a></div><div class="footer">© 2021 <a href="/" rel="nofollow">Waillim Fun</a>. Powered by <a rel="nofollow" target="_blank" href="https://hexo.io">Hexo</a>. Theme <a target="_blank" href="https://github.com/lotabout/very-simple">very-simple</a>.</div></div></div></footer><link rel="stylesheet" type="text/css" href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.css"><script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script><script src="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js"></script><script>$(document).ready(function() {
     $(".fancybox").fancybox();
