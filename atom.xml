@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Waillim&#39;s Blog</title>
+  <title>William&#39;s Blog</title>
   
-  <subtitle>Build anything on Android</subtitle>
+  <subtitle>Build anything in Java</subtitle>
   <link href="http://williamfun.github.io/atom.xml" rel="self"/>
   
   <link href="http://williamfun.github.io/"/>
@@ -10,7 +10,7 @@
   <id>http://williamfun.github.io/</id>
   
   <author>
-    <name>Waillim Fun</name>
+    <name>William Fun</name>
     
   </author>
   
